@@ -1,3 +1,7 @@
+v0.2.0
+======
+Jan 27 2024
+
 - Support the repository cloned by https protocol
 
 v0.1.0

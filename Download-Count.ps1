@@ -6,6 +6,9 @@ function Get-Repo {
             if ( $line -match "Push +URL: \w+@github.com:([\w-\.]+/[\w-\.]+).git" ){
                 return $matches[1]
             }
+            if ( $line -match "Push +URL: https://github.com/([\w\.-]+/[\w\.-]+?)(\.git)?$"){
+                return $matches[1]
+            }
         }
     }
     return $null

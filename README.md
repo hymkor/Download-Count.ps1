@@ -8,7 +8,13 @@ Download-Count.ps1 is a PowerShell script that reports how many assets on GitHub
 Install
 -------
 
-Download the binary package from [Releases](https://github.com/hymkor/Download-Count.ps1/releases) and extract the executable.
+### Quick install
+
+Execute the following command from a directory listed in the PATH environment variable.
+
+```
+curl -O https://raw.githubusercontent.com/hymkor/Download-Count.ps1/master/Download-Count.ps1
+```
 
 ### for scoop-installer
 
